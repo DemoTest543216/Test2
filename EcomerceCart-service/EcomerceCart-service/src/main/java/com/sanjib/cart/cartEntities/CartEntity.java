@@ -22,11 +22,9 @@ public class CartEntity {
 	private Integer cartId;
 	private Integer userId;
 	private String userName;
-<<<<<<< Updated upstream
 	private String locaation;
-=======
 	private String address;
->>>>>>> Stashed changes
+
 	
 	@OneToMany(targetEntity = CartDetailEntity.class, cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "cartid_fk", referencedColumnName = "cartId")
