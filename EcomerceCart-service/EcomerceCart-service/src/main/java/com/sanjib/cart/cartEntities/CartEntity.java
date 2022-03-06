@@ -24,7 +24,8 @@ public class CartEntity {
 	private String userName;
 	private String locaation;
 	private String address;
-	private String cityName;
+	private int cost;
+
 
 	
 	@OneToMany(targetEntity = CartDetailEntity.class, cascade = CascadeType.ALL, orphanRemoval = true)
