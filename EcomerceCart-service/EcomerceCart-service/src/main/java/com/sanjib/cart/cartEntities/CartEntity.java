@@ -25,6 +25,7 @@ public class CartEntity {
 	private String locaation;
 	private String address;
 	private int cost;
+	private String city;
 
 
 	
